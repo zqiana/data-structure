@@ -35,7 +35,7 @@ public static void main(String[] args) {
                 countNum = 0;
 			}else {
 		  //如果未到队尾，这时候删除元素后，链表的长度会-1，之后的所有元素位置都会前移一位，所以下一个开始的位置的index会-1，
-		  //因为链表长度已经-1，所以不用对链表做任何操作
+		  //因为链表长度已经-1，所以不用对链表做任何操作更新
 				list.remove(countNum);
 			}					
 		}	
